@@ -1,0 +1,97 @@
+/* Container geral do modal */
+.fornecedor-search-wrapper {
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+}
+
+/* Card cinza */
+.fornecedor-search-card {
+    width: 100%;
+    max-width: 80rem;
+    background: #e5e7eb; /* cinza */
+    border-radius: 16px;
+    padding: 24px;
+    box-shadow: 0 20px 40px rgba(0,0,0,.15);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Header */
+.fornecedor-search-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fornecedor-search-title {
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: #1f2937;
+}
+
+.fornecedor-search-input {
+    width: 260px;
+    padding: 8px 12px;
+    border-radius: 8px;
+    border: 1px solid #cbd5e1;
+    font-size: 0.875rem;
+}
+
+/* Tabela */
+.fornecedor-table-wrapper {
+    background: #ffffff;
+    border-radius: 12px;
+    overflow: hidden;
+    border: 1px solid #d1d5db;
+}
+
+.fornecedor-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.875rem;
+}
+
+.fornecedor-table thead {
+    background: #f3f4f6;
+}
+
+.fornecedor-table th {
+    padding: 14px 16px;
+    text-align: left;
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #4b5563;
+}
+
+.fornecedor-table td {
+    padding: 16px;
+    color: #374151;
+}
+
+.fornecedor-table tbody tr {
+    border-top: 1px solid #e5e7eb;
+    transition: background .2s;
+}
+
+.fornecedor-table tbody tr:hover {
+    background: #f9fafb;
+}
+
+/* Botão */
+.fornecedor-select-btn {
+    background: #2563eb;
+    color: #ffffff;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 8px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.fornecedor-select-btn:hover {
+    background: #1d4ed8;
+}
