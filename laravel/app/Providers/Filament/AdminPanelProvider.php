@@ -113,11 +113,11 @@ class AdminPanelProvider extends PanelProvider
                 AccountWidget::class,
             ])
             ->discoverResources(
-                in: app_path('Filament/Resources'),
+                in: app_path('Presentation/Filament/Resources'),
                 for: 'App\Filament\Resources'
             )
             ->discoverPages(
-                in: app_path('Filament/Pages'),
+                in: app_path('Presentation/Filament/Pages'),
                 for: 'App\Filament\Pages'
             )
             ->pages([

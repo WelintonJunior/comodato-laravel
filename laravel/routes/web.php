@@ -7,6 +7,7 @@ use Livewire\Volt\Volt;
 
 use App\Http\Controllers\CustomLoginController;
 
+
 use Illuminate\Http\Request;
 use App\Models\User;
 
@@ -46,4 +47,5 @@ Route::middleware(['auth'])->group(function () {
             ),
         )
         ->name('two-factor.show');
+
 });

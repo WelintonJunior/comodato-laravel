@@ -28,6 +28,16 @@
     "autoload": {
         "psr-4": {
             "App\\": "app/",
+            "App\\Models\\": "app/Infrastructure/Persistence/Models/",
+            "App\\Filament\\": "app/Presentation/Filament/",
+            "App\\Http\\": "app/Presentation/Http/",
+            "App\\Livewire\\": "app/Presentation/Livewire/",
+            "App\\View\\": "app/Presentation/View/",
+            "App\\Forms\\": "app/Presentation/Forms/",
+            "App\\Domain\\": "app/Domain/",
+            "App\\Application\\": "app/Application/",
+            "App\\Infrastructure\\": "app/Infrastructure/",
+            "App\\Presentation\\": "app/Presentation/",
             "Database\\Factories\\": "database/factories/",
             "Database\\Seeders\\": "database/seeders/"
         }

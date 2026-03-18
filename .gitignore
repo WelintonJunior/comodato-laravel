@@ -58,6 +58,14 @@ storage/framework/cache/*
 storage/framework/sessions/*
 storage/framework/views/*
 
-# Backups
-*.bak
-*.backup
+# Backups e duplicatas (evitar criação acidental)
+**/ravell/
+**/ravel/
+**/*_backup/
+**/*_old/
+**/*.backup
+**/*.bak
+
+# Arquivos temporários
+**/*.tmp
+**/*.temp
